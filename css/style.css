@@ -102,10 +102,24 @@ h2 {
     gap: 120px;
 }
 
-
-
-
-
 .cards:hover{
     box-shadow:10px 15px rgb(12, 12, 12);
+}
+
+/* ARTICLE */
+
+article{
+width: 100%;
+margin: 0 auto;
+background-color: #0B0A0A;
+}
+
+.artice{
+    width: 80%;
+    height: 418px;
+}
+
+h3{
+    font-size: 56px;
+    color: #FFFFFF;
 }
