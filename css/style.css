@@ -1,0 +1,94 @@
+/* MAIN CONTAINER */
+
+.main_cont {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* HEADER */
+
+
+.sec1 {
+    width: 100%;
+    height: 700px;
+    background-image: url("../pics/wave.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* ტექსტი რატომ არ ჩაჯდა აქ display-flex; justify % align? */
+}
+
+.burger{
+    color: #FFFFFF;
+    display: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 5px red;
+    padding: 32px 125px 0 125px;
+    margin-bottom: 320px;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+li:hover{
+    font-size: 60px;
+}
+
+.caption {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    color: #C0B4B4;
+    /* border: solid 5px blue; */
+}
+
+
+
+/* SECTION 2 */
+
+.sec2{
+    width: 100%;
+    height: 610px;
+    background-color: #2A2626;
+
+}
+
+.main_article{
+    width: 80%;
+    padding: 96px 125px;
+}
+
+h2{
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.threecards{
+    width: 100%;
+    display: flex;
+
+}
+
+.cards{
+width: 30%;
+justify-content: space-between;
+}
