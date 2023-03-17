@@ -20,7 +20,7 @@
     /* ტექსტი რატომ არ ჩაჯდა აქ display-flex; justify % align? */
 }
 
-.burger{
+.burger {
     color: #FFFFFF;
     display: none;
 }
@@ -44,7 +44,7 @@ ul {
     color: #FFFFFF;
 }
 
-li:hover{
+li:hover {
     font-size: 60px;
 }
 
@@ -62,33 +62,50 @@ li:hover{
 
 /* SECTION 2 */
 
-.sec2{
+.sec2 {
     width: 100%;
     height: 610px;
     background-color: #2A2626;
 
 }
 
-.main_article{
+
+.main_article {
     width: 80%;
+    height: 500px;
     padding: 96px 125px;
 }
 
-h2{
+
+h2 {
+    margin-bottom: 42px;
     font-size: 48px;
     color: #FFFFFF;
-    margin-bottom: 42px;
     display: flex;
     justify-content: center;
 }
 
-.threecards{
+.threecards {
     width: 100%;
+    height: 100%;
     display: flex;
-
+    justify-content: space-between;
+    /* border: 5px solid red; */
 }
 
+
 .cards{
-width: 30%;
-justify-content: space-between;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid rgb(110, 27, 173); */
+    gap: 120px;
+}
+
+
+
+
+
+.cards:hover{
+    box-shadow:10px 15px rgb(12, 12, 12);
 }
